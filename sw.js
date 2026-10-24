@@ -2,7 +2,7 @@
    Mise à jour : remplace index.html sur GitHub puis augmente le numéro
    de version ci-dessous (noms-allah-ids-v1 → noms-allah-ids-v2…). */
 const PREFIX = 'noms-allah-ids-';
-const CACHE = PREFIX + 'v1';
+const CACHE = PREFIX + 'v2';
 const ASSETS = [ "./", "./index.html", "./fonts.css", "./manifest.webmanifest", "./apple-touch-icon.png", "./icon-192.png", "./icon-512.png", "./icon-1024.png" ];
 
 self.addEventListener('install', e => {
